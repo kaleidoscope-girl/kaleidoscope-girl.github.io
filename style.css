@@ -1,6 +1,6 @@
 :root{
   --bg-color: rgb(20,20,20);
-  --color: rgb(240,240,240);
+  --color: #f4a4e7;
   --card-color: rgb(23,23,23);
 }
 
@@ -26,10 +26,21 @@ body{
   padding: 0;
   background-color: var(--bg-color);
   color: var(--color);
-  font-family: 'Red Hat Mono', monospace;
+  font-family: 'Montserrat', monospace;
 }
 
+
 /* Navigation ----------------------------------------------------------------------------------------------*/ 
+.intro{
+  background-color:;
+  padding: 10px;
+}
+
+.test{
+  margin-bottom: 50px;
+}
+
+
 nav{
   position: fixed;
   top: 0;
@@ -61,12 +72,12 @@ li a {
 
 li a:hover:not(.active) {
   color: #6bffc9;
-  text-shadow: 0 0 5px #48FFBD;
+  text-shadow: 0 0 5px #f4a4e7;
 }
   
 .active {
   color: #6bffc9;
-  text-shadow: 0 0 5px #48FFBD;
+  text-shadow: 0 0 5px #f4a4e7;
 }
 
 a{
@@ -89,7 +100,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:after {
   font-family: 'Red Hat Mono', monospace;
-  content: 'Get in touch';
+  content: 'Reach out!';
 }
 
 input[type="checkbox"]:checked {
@@ -101,7 +112,7 @@ input[type="checkbox"]:checked {
   width: 136px;
   border-radius: 20px;
   position: absolute;
-  border: 1px solid #48FFBD;
+  border: 1px solid #f4a4e7;
   transition: box-shadow .3s;
   /* pointer-events: none; 
   background: url(background); */
@@ -146,6 +157,12 @@ h2{
 
 .long-txt{
   display: grid;
+}
+
+body{
+  background-image: url('assets/nuages.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Cards ----------------------------------------------------------------------------------------------*/ 
@@ -289,7 +306,8 @@ footer {
   }
 
   h1{
-    font-size: 64px;
+    font-size: 4em;
+    color: whitesmoke;
   }
 
   h2{
