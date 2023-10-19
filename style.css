@@ -133,6 +133,8 @@ input[type="checkbox"]:checked {
 /* Main ----------------------------------------------------------------------------------------------*/ 
 main{
   display: grid;
+  vertical-align: top;
+  min-height: 74vh;
 }
 
 h1, h2{
@@ -326,8 +328,6 @@ footer {
   /* Main */
   main{
     margin: 60px 4vw 5vh 4vw;
-    vertical-align: top;
-    min-height: 70vh;
   }
 
   section{
