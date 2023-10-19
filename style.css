@@ -100,7 +100,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:after {
   font-family: Arial, Helvetica, sans-serif;
-  content: 'Reich ein!';
+  content: 'Jetzt einreichen!';
 }
 
 input[type="checkbox"]:checked {
@@ -143,6 +143,7 @@ h1, h2{
 
 h1{
   font-weight: 700;
+  color: #48FFBD;
 }
 
 h2{
